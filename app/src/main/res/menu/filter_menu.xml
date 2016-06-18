@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.imageproject.FilterActivity" >
+
+    <item android:id="@+id/action_save_photo"
+          android:icon="@drawable/ic_action_save"
+          android:title="@string/action_filter_photo"
+          
+          app:showAsAction="ifRoom|withText"/>
+    
+    
+    <item android:id="@+id/action_choose_filter"
+          android:icon="@drawable/ic_action_edit"
+          android:title="@string/action_choose_filter"
+          app:showAsAction="ifRoom|withText"/>
+    
+    <item android:id="@+id/action_share"
+         android:title="@string/action_share_photo"
+         app:showAsAction="ifRoom"
+         app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+         />
+    
+    <!-- <item android:id="@+id/action_search_photo"
+          android:icon="@drawable/ic_action_picture"
+          android:title="@string/action_search_photo"
+          app:showAsAction="ifRoom|withText" />
+
+	-->
+</menu>

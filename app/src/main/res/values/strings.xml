@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer Resources -->
+	<string-array name="filter_array">
+        <item>Flood Fill Segmentation</item>
+        <item>Binary Local Pattern</item>
+        <item>Morphing</item>
+        <item>Warping</item>
+    </string-array>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Closed</string>
+    
+    <!-- General App Resources -->
+    <string name="app_name">Pikto</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_take_photo">Take Photo</string>
+    <string name="action_search_photo">Search for Photo</string>
+    <string name="action_choose_filter">Choose Filter</string>
+    <string name="action_accept_photo">Accept Photo</string>
+    <string name="action_cancel_photo">Cancel Photo</string>
+    <string name="action_filter_photo">Filter Photo</string>
+    <string name="action_share_photo">Share Photo</string>
+    <string name="image_holder_description">Image Holder</string>
+    
+
+</resources>

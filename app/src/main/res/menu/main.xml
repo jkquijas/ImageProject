@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.imageproject.MainActivity" >
+    
+    <item android:id="@+id/action_accept_photo"
+          android:icon="@drawable/ic_action_accept"
+          android:title="@string/action_accept_photo"      
+          app:showAsAction="always"/>
+    
+    <item android:id="@+id/action_cancel_photo"
+          android:icon="@drawable/ic_action_cancel"
+          android:title="@string/action_cancel_photo"      
+          app:showAsAction="always"/>
+    
+    <item android:id="@+id/action_take_photo"
+          android:icon="@drawable/ic_action_camera"
+          android:title="@string/action_take_photo"
+          app:showAsAction="always"/>
+    
+    <item android:id="@+id/action_search_photo"
+          android:icon="@drawable/ic_action_picture"
+          android:title="@string/action_search_photo"
+          app:showAsAction="always" />
+
+</menu>
