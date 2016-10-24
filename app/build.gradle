@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 25
+    buildToolsVersion "25"
 
     defaultConfig {
         applicationId "com.example.imageproject"
         minSdkVersion 14
-        targetSdkVersion 19
+        targetSdkVersion 25
     }
 
     buildTypes {
@@ -23,6 +23,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:19.0.+'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:mediarouter-v7:25.0.0'
     compile files('libs/JTransforms-3.1-with-dependencies.jar')
 }

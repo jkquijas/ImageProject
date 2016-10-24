@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\res\\merged\\debug\\values-uk\\values-uk.xml",
+        "outputFile": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 160
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 167,
+                        "startOffset": 55,
                         "endColumn": 109,
-                        "endOffset": 272
+                        "endOffset": 160
                     }
                 }
             },
@@ -26,17 +26,17 @@
                     "startLine": 3,
                     "startColumn": 4,
                     "startOffset": 165,
-                    "endColumn": 101,
-                    "endOffset": 262
+                    "endColumn": 107,
+                    "endOffset": 268
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 277,
-                        "endColumn": 101,
-                        "endOffset": 374
+                        "startOffset": 165,
+                        "endColumn": 107,
+                        "endOffset": 268
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 267,
-                    "endColumn": 105,
-                    "endOffset": 368
+                    "startOffset": 273,
+                    "endColumn": 122,
+                    "endOffset": 391
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 379,
-                        "endColumn": 105,
-                        "endOffset": 480
+                        "startOffset": 273,
+                        "endColumn": 122,
+                        "endOffset": 391
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 373,
-                    "endColumn": 85,
-                    "endOffset": 454
+                    "startOffset": 396,
+                    "endColumn": 101,
+                    "endOffset": 493
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 485,
-                        "endColumn": 85,
-                        "endOffset": 566
+                        "startOffset": 396,
+                        "endColumn": 101,
+                        "endOffset": 493
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 459,
-                    "endColumn": 107,
-                    "endOffset": 562
+                    "startOffset": 498,
+                    "endColumn": 105,
+                    "endOffset": 599
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 571,
-                        "endColumn": 107,
-                        "endOffset": 674
+                        "startOffset": 498,
+                        "endColumn": 105,
+                        "endOffset": 599
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 567,
-                    "endColumn": 117,
-                    "endOffset": 680
+                    "startOffset": 604,
+                    "endColumn": 85,
+                    "endOffset": 685
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 679,
-                        "endColumn": 117,
-                        "endOffset": 792
+                        "startOffset": 604,
+                        "endColumn": 85,
+                        "endOffset": 685
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 685,
-                    "endColumn": 105,
-                    "endOffset": 786
+                    "startOffset": 690,
+                    "endColumn": 107,
+                    "endOffset": 793
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 797,
-                        "endColumn": 105,
-                        "endOffset": 898
+                        "startOffset": 690,
+                        "endColumn": 107,
+                        "endOffset": 793
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 791,
-                    "endColumn": 106,
-                    "endOffset": 893
+                    "startOffset": 798,
+                    "endColumn": 117,
+                    "endOffset": 911
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 903,
-                        "endColumn": 106,
-                        "endOffset": 1005
+                        "startOffset": 798,
+                        "endColumn": 117,
+                        "endOffset": 911
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 898,
-                    "endColumn": 97,
-                    "endOffset": 991
+                    "startOffset": 916,
+                    "endColumn": 78,
+                    "endOffset": 990
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1010,
-                        "endColumn": 97,
-                        "endOffset": 1103
+                        "startOffset": 916,
+                        "endColumn": 78,
+                        "endOffset": 990
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 996,
-                    "endColumn": 107,
-                    "endOffset": 1099
+                    "startOffset": 995,
+                    "endColumn": 79,
+                    "endOffset": 1070
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1108,
-                        "endColumn": 107,
-                        "endOffset": 1211
+                        "startOffset": 995,
+                        "endColumn": 79,
+                        "endOffset": 1070
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1104,
-                    "endColumn": 105,
-                    "endOffset": 1205
+                    "startOffset": 1075,
+                    "endColumn": 80,
+                    "endOffset": 1151
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1216,
-                        "endColumn": 105,
-                        "endOffset": 1317
+                        "startOffset": 1075,
+                        "endColumn": 80,
+                        "endOffset": 1151
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1210,
-                    "endColumn": 108,
-                    "endOffset": 1314
+                    "startOffset": 1156,
+                    "endColumn": 105,
+                    "endOffset": 1257
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1322,
-                        "endColumn": 108,
-                        "endOffset": 1426
+                        "startOffset": 1156,
+                        "endColumn": 105,
+                        "endOffset": 1257
                     }
                 }
             },
@@ -234,18 +234,550 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1319,
-                    "endColumn": 123,
-                    "endOffset": 1438
+                    "startOffset": 1262,
+                    "endColumn": 106,
+                    "endOffset": 1364
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-uk\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 106,
+                        "endOffset": 1364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1369,
+                    "endColumn": 97,
+                    "endOffset": 1462
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1369,
+                        "endColumn": 97,
+                        "endOffset": 1462
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1467,
+                    "endColumn": 107,
+                    "endOffset": 1570
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1431,
+                        "startOffset": 1467,
+                        "endColumn": 107,
+                        "endOffset": 1570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1575,
+                    "endColumn": 105,
+                    "endOffset": 1676
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 105,
+                        "endOffset": 1676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1681,
+                    "endColumn": 108,
+                    "endOffset": 1785
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1681,
+                        "endColumn": 108,
+                        "endOffset": 1785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1790,
+                    "endColumn": 123,
+                    "endOffset": 1909
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1790,
                         "endColumn": 123,
-                        "endOffset": 1550
+                        "endOffset": 1909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1914,
+                    "endColumn": 99,
+                    "endOffset": 2009
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1914,
+                        "endColumn": 99,
+                        "endOffset": 2009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2014,
+                    "endColumn": 105,
+                    "endOffset": 2115
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 105,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2120,
+                    "endColumn": 112,
+                    "endOffset": 2228
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 112,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2233,
+                    "endColumn": 114,
+                    "endOffset": 2343
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 114,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2348,
+                    "endColumn": 114,
+                    "endOffset": 2458
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 389,
+                        "endColumn": 114,
+                        "endOffset": 499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2463,
+                    "endColumn": 94,
+                    "endOffset": 2553
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 504,
+                        "endColumn": 94,
+                        "endOffset": 594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2558,
+                    "endColumn": 88,
+                    "endOffset": 2642
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endColumn": 88,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2647,
+                    "endColumn": 100,
+                    "endOffset": 2743
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endColumn": 100,
+                        "endOffset": 784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2748,
+                    "endColumn": 104,
+                    "endOffset": 2848
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 789,
+                        "endColumn": 104,
+                        "endOffset": 889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2853,
+                    "endColumn": 97,
+                    "endOffset": 2946
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 894,
+                        "endColumn": 97,
+                        "endOffset": 987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2951,
+                    "endColumn": 95,
+                    "endOffset": 3042
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 992,
+                        "endColumn": 95,
+                        "endOffset": 1083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3047,
+                    "endColumn": 93,
+                    "endOffset": 3136
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1088,
+                        "endColumn": 93,
+                        "endOffset": 1177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3141,
+                    "endColumn": 95,
+                    "endOffset": 3232
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1182,
+                        "endColumn": 95,
+                        "endOffset": 1273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3237,
+                    "endColumn": 101,
+                    "endOffset": 3334
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1278,
+                        "endColumn": 101,
+                        "endOffset": 1375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3339,
+                    "endColumn": 111,
+                    "endOffset": 3446
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1380,
+                        "endColumn": 111,
+                        "endOffset": 1487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3451,
+                    "endColumn": 89,
+                    "endOffset": 3536
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1492,
+                        "endColumn": 89,
+                        "endOffset": 1577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3541,
+                    "endColumn": 86,
+                    "endOffset": 3623
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1582,
+                        "endColumn": 86,
+                        "endOffset": 1664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3628,
+                    "endColumn": 97,
+                    "endOffset": 3721
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 97,
+                        "endOffset": 1762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3726,
+                    "endColumn": 103,
+                    "endOffset": 3825
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1767,
+                        "endColumn": 103,
+                        "endOffset": 1866
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3830,
+                    "endColumn": 86,
+                    "endOffset": 3912
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1871,
+                        "endColumn": 86,
+                        "endOffset": 1953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3917,
+                    "endColumn": 94,
+                    "endOffset": 4007
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1958,
+                        "endColumn": 94,
+                        "endOffset": 2048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4012,
+                    "endColumn": 80,
+                    "endOffset": 4088
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2014,
+                        "endColumn": 80,
+                        "endOffset": 2090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4093,
+                    "endColumn": 100,
+                    "endOffset": 4189
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2095,
+                        "endColumn": 100,
+                        "endOffset": 2191
                     }
                 }
             }

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.imageproject.MainActivity$PlaceholderFragment"
+    >
+
+    <item android:id="@+id/action_cancel_photo"
+        android:icon="@drawable/arrow_back"
+        android:title="@string/action_cancel_photo"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_accept_photo"
+        android:icon="@drawable/arrow_forward"
+        android:title="@string/action_accept_photo"
+        app:showAsAction="always"/>
+
+</menu>

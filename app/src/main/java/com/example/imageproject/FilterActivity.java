@@ -5,15 +5,6 @@ import java.io.IOException;
 
 
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
-import com.example.imagefilters.FloodFillSegmentation;
-import com.example.parallel.ParallelFloodFillFilter;
-import com.example.parallel.ParallelFloodFillFilter2;
-
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
@@ -23,19 +14,16 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore.Images.Media;
 import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.ShareActionProvider;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
@@ -46,50 +34,41 @@ import android.widget.Toast;
  * This Activity class represents the filter choosing aspect of the application.
  * 
  * @author Jona Q
- * @version 1.0
+ * @version 2.0
  */
 public class FilterActivity extends ActionBarActivity{
 
-/*For the Navigation Drawer*/
-private String[] filterTitles;
-private DrawerLayout mDrawerLayout;
-private ActionBarDrawerToggle mDrawerToggle;
-private ListView mDrawerList;
-private CharSequence mDrawerTitle = "Choose a filter";
-private CharSequence mTitle = "Pikto";
-
-//	Parallel computing variables
-private static Runtime runtime = Runtime.getRuntime(); 				//	Runtime variable
-private static int NUMBER_OF_CORES = runtime.availableProcessors();	//	Number of cores
-private static int KEEP_ALIVE_TIME = 5;
-private BlockingQueue<Runnable> workQueue = new ArrayBlockingQueue<>(1024);
-private ThreadPoolExecutor tPool = new ThreadPoolExecutor(NUMBER_OF_CORES,
-		NUMBER_OF_CORES, KEEP_ALIVE_TIME, TimeUnit.MILLISECONDS, workQueue);
+	int width, height;
+	int [] pixels;
 
 
-int width, height;
-int [] pixels;
-/*For setting up the chosen image*/
-private Uri fileUri;
-static Bitmap imageBitmap, newBitMap;
+	//	Navigation Drawer variables
+	private String[] filterTitles;
+	private DrawerLayout mDrawerLayout;
+	private ActionBarDrawerToggle mDrawerToggle;
+	private ListView mDrawerList;
+	private CharSequence mDrawerTitle = "Choose a filter";
+	private CharSequence mTitle = "Pikto";
 
-/*Unimplemented. For sharing on FB, Twitter, etc*/
-private ShareActionProvider mShareActionProvider;
+	//	For setting up user selected image
+	private Uri fileUri;
+	static Bitmap imageBitmap, newBitMap;
 
-private class DrawerItemClickListener implements ListView.OnItemClickListener {
-	@Override
-	public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
-		selectFilter(position);
+	/*Unimplemented. For sharing on FB, Twitter, etc*/
+	private ShareActionProvider mShareActionProvider;
+
+	private class DrawerItemClickListener implements ListView.OnItemClickListener {
+		@Override
+		public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
+			selectFilter(position);
+		}
 	}
-}
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_filter);
 
-		// Get the title
-		//mTitle = mDrawerTitle = getTitle();
-		
+
 		/* For setting up the navigation drawer */
 		filterTitles = getResources().getStringArray(R.array.filter_array);
 		Log.d("Drawer", filterTitles.toString());
@@ -209,29 +188,7 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 	    
 	    return super.onCreateOptionsMenu(menu);
 	}
-	
-	public void imageViewTest(View v){
-		Toast.makeText(this, "Id: "+v.getId(), Toast.LENGTH_SHORT).show();
-		Toast.makeText(this, "R: "+R.id.imageView1, Toast.LENGTH_SHORT).show();
-	}
 
-	/**
-	 * A placeholder fragment containing a simple view.
-	 */
-	public static class PlaceholderFragment extends Fragment {
-
-		public PlaceholderFragment() {
-		}
-
-		@Override
-		public View onCreateView(LayoutInflater inflater, ViewGroup container,
-				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_filter, container,
-					false);
-			
-			return rootView;
-		}
-	}
 	
 	/**
 	 * Simple helper function to display a Toast
@@ -252,35 +209,29 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 	    return intent;
 	}
 	
-	/** Swaps fragments in the main content view */
+
 	private void selectFilter(int position) {
-	    // Create a new fragment and specify the planet to show based on position
+		//	Prepare dialog
+		final ProgressDialog dialog = new ProgressDialog(this);
+		dialog.setCancelable(true);
+		dialog.setIcon(R.drawable.deluxe_picto_box);
+		dialog.setTitle("Please wait...");
+		dialog.setMessage("Now filtering image");
+
+		//	Extract image data
+		width = imageBitmap.getWidth();
+		height = imageBitmap.getHeight();
+		newBitMap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+		pixels = new int[height*width];
+		imageBitmap.getPixels(pixels, 0, width, 0, 0, width, height);
+
 	    switch(position){
 	    
-	    /* Flood Fill Segmentation */
+	    //	Flood Fill Segmentation
 	    case 0: makeToast("Selected Flood Fill Segmentation");
 			
 			try {
-				final ProgressDialog dialog = new ProgressDialog(this);
-				dialog.setCancelable(true);
-				dialog.setIcon(R.drawable.deluxe_picto_box);
-				dialog.setTitle("Please wait...");
-				dialog.setMessage("Now filtering image");
 				dialog.show();
-				
-				/////////////////////////////////////////PARALLEL
-				/*imageBitmap = Media.getBitmap(this.getContentResolver(), fileUri);
-				ParallelFloodFillFilter2 floodFill = new ParallelFloodFillFilter2(tPool, imageBitmap,
-						FloodFillSegmentation.THRESHOLD_LOW, FloodFillSegmentation.REGION_MEDIUM);
-				
-				newBitMap = floodFill.getFilteredImage(imageBitmap);*/
-				
-				//////////////////////////////////////////////////////////////////////
-				width = imageBitmap.getWidth();
-	    		height = imageBitmap.getHeight();
-	    		newBitMap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
-	    		pixels = new int[height*width];
-	    		imageBitmap.getPixels(pixels, 0, width, 0, 0, width, height);
 	    		
 	    		new Thread(new Runnable(){
 	    			public void run() {
@@ -294,7 +245,7 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 	    				});
 	    		int []r = com.example.imagefilters.FloodFillSegmentation.segmentImage(pixels,
 	    				com.example.imagefilters.FloodFillSegmentation.THRESHOLD_LOW,
-	    				com.example.imagefilters.FloodFillSegmentation.REGION_SMALL, width, height);
+	    				com.example.imagefilters.FloodFillSegmentation.REGION_LARGE, width, height);
 	    		
 	    		newBitMap.setPixels(r, 0, width, 0, 0, width, height);
 	    		dialog.dismiss();
@@ -312,9 +263,7 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 	    		
 	    		//Set the new bitmap
 	    		((ImageView) findViewById(R.id.imageView1)).setImageBitmap(newBitMap);
-	    		
-	    		//dialog.dismiss();
-	    		
+
 			}catch (Exception e) {
 				
 			}
@@ -323,19 +272,8 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 
 	    case 1: makeToast("Selected Binary Local Patterns");
 			try {
-				final ProgressDialog dialog = new ProgressDialog(this);
-				dialog.setCancelable(true);
-				dialog.setIcon(R.drawable.deluxe_picto_box);
-				dialog.setTitle("Please wait...");
-				dialog.setMessage("Now filtering image");
+
 				dialog.show();
-
-
-				width = imageBitmap.getWidth();
-				height = imageBitmap.getHeight();
-				newBitMap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
-				pixels = new int[height*width];
-				imageBitmap.getPixels(pixels, 0, width, 0, 0, width, height);
 
 				new Thread(new Runnable(){
 					public void run() {
@@ -352,21 +290,11 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 						newBitMap.setPixels(r, 0, width, 0, 0, width, height);
 						dialog.dismiss();
 					}
-	    				/*ParallelFloodFillFilter floodFill = new ParallelFloodFillFilter(tPool, imageBitmap,
-	    						FloodFillSegmentation.THRESHOLD_LOW, FloodFillSegmentation.REGION_MEDIUM);
-
-	    				newBitMap = floodFill.getFilteredImage(imageBitmap);
-	    				dialog.dismiss();
-
-	    			}*/
-
 
 				}).start();
 
 				//Set the new bitmap
 				((ImageView) findViewById(R.id.imageView1)).setImageBitmap(newBitMap);
-
-				//dialog.dismiss();
 
 			}catch (Exception e) {
 
@@ -375,13 +303,8 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 			break;
 	    case 2: makeToast("Selected Binary Local Patterns");
 			try {
-				final ProgressDialog dialog = new ProgressDialog(this);
-				dialog.setCancelable(true);
-				dialog.setIcon(R.drawable.deluxe_picto_box);
-				dialog.setTitle("Please wait...");
-				dialog.setMessage("Now filtering image");
-				dialog.show();
 
+				dialog.show();
 
 				width = imageBitmap.getWidth();
 				height = imageBitmap.getHeight();
@@ -404,7 +327,9 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 								makeToast("Canceled");
 							}
 						});
-						int [] r = com.example.imagefilters.L0Gradient.applyFilter(imageBitmap);
+						//int [] r = com.example.imagefilters.L0Gradient.applyFilter(imageBitmap);
+						//	TODO update this
+						int [] r = null;
 
 						newBitMap.setPixels(r, 0, width, 0, 0, width, height);
 						dialog.dismiss();
@@ -415,7 +340,6 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 				//Set the new bitmap
 				((ImageView) findViewById(R.id.imageView1)).setImageBitmap(newBitMap);
 
-				//dialog.dismiss();
 
 			}catch (Exception e) {
 
@@ -426,28 +350,20 @@ private class DrawerItemClickListener implements ListView.OnItemClickListener {
 	    default: makeToast("Undefined Selection");break;
 	    }
 
-	    // Highlight the selected item, update the title, and close the drawer
 	    mDrawerList.setItemChecked(position, true);
-	    //setTitle(mPlanetTitles[position]);
 	    mDrawerLayout.closeDrawer(mDrawerList);
-	    
-	    
+
 	}
 	
 	public void onRestart(){
 		super.onRestart();
-		tPool.shutdownNow();
-		super.onStop();
 	}
 	public void onStop(){
-		tPool.shutdownNow();
 		super.onStop();
 	}
 	
 	public void onDestroy(){
 		super.onDestroy();
-		tPool.shutdownNow();
-		super.onStop();
 	}
 	
 	

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PiktoTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorForeground">?attr/colorAccent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@color/Pikto1ThemeTextPrimary</item>
+        <item name="android:colorBackground">?attr/colorAccent</item>
+    </style>
+</resources>

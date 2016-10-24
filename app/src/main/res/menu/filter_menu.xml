@@ -21,10 +21,5 @@
          app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
          />
     
-    <!-- <item android:id="@+id/action_search_photo"
-          android:icon="@drawable/ic_action_picture"
-          android:title="@string/action_search_photo"
-          app:showAsAction="ifRoom|withText" />
 
-	-->
 </menu>

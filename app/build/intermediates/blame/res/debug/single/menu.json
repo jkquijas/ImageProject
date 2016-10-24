@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\Jona Q\\Picto\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\res\\merged\\debug\\menu\\image_confirm_menu.xml",
+        "source": "C:\\Users\\Jona Q\\Picto\\app\\src\\main\\res\\menu\\image_confirm_menu.xml"
     }
 ]

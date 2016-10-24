@@ -1,23 +1,23 @@
 [
     {
-        "outputFile": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\res\\merged\\debug\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 61,
-                    "endOffset": 112
+                    "endColumn": 58,
+                    "endOffset": 109
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 168,
-                        "endColumn": 61,
-                        "endOffset": 225
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 117,
-                    "endColumn": 71,
-                    "endOffset": 184
+                    "startOffset": 114,
+                    "endColumn": 70,
+                    "endOffset": 180
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 343,
-                        "endColumn": 71,
-                        "endOffset": 410
+                        "startOffset": 114,
+                        "endColumn": 70,
+                        "endOffset": 180
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 189,
-                    "endColumn": 60,
-                    "endOffset": 245
+                    "startOffset": 185,
+                    "endColumn": 70,
+                    "endOffset": 251
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 527,
-                        "endColumn": 60,
-                        "endOffset": 583
+                        "startOffset": 185,
+                        "endColumn": 70,
+                        "endOffset": 251
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 250,
-                    "endColumn": 58,
-                    "endOffset": 304
+                    "startOffset": 256,
+                    "endColumn": 69,
+                    "endOffset": 321
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 701,
-                        "endColumn": 58,
-                        "endOffset": 755
+                        "startOffset": 256,
+                        "endColumn": 69,
+                        "endOffset": 321
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 309,
-                    "endColumn": 63,
-                    "endOffset": 368
+                    "startOffset": 326,
+                    "endColumn": 69,
+                    "endOffset": 391
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 873,
-                        "endColumn": 63,
-                        "endOffset": 932
+                        "startOffset": 326,
+                        "endColumn": 69,
+                        "endOffset": 391
                     }
                 }
             },
@@ -101,18 +101,75 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 373,
-                    "endColumn": 54,
-                    "endOffset": 423
+                    "startOffset": 396,
+                    "endColumn": 67,
+                    "endOffset": 459
                 },
                 "from": {
-                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.0.1\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 938,
-                        "endColumn": 54,
-                        "endOffset": 988
+                        "startOffset": 396,
+                        "endColumn": 67,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 464,
+                    "endColumn": 67,
+                    "endOffset": 527
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 67,
+                        "endOffset": 527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endColumn": 103,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 532,
+                        "endColumn": 103,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 115,
+                    "endOffset": 747
+                },
+                "from": {
+                    "file": "C:\\Users\\Jona Q\\Picto\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 115,
+                        "endOffset": 747
                     }
                 }
             }

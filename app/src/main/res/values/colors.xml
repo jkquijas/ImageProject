@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="palette_1_primary_1"
+        >#FFE9E92D</color>
+    <color
+        name="palette_1_secondary_1"
+        >#f6f9ca</color>
+    <color
+        name="palette_1_primary_2"
+        >#f8fcee</color>
+    <color
+        name="palette_1_secondary_2"
+        >#e5f2f3</color>
+    <color
+        name="palette_1_accents"
+        >#519901</color>
+    <color name="Pikto1ThemeTextPrimary">#2b390e</color>
+</resources>

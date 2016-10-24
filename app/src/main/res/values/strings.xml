@@ -11,6 +11,13 @@
     <string name="drawer_close">Drawer Closed</string>
     
     <!-- General App Resources -->
+    <string name="select_photo_prompt">Choose a Photo</string>
+    <string name="select_filter_prompt">Choose Filter</string>
+    <string name="finished_prompt">Pikto Finished!</string>
+
+    <string name="temp_bitmap_string">TemporaryBitmapImage</string>
+
+
     <string name="app_name">Pikto</string>
     <string name="action_settings">Settings</string>
     <string name="action_take_photo">Take Photo</string>

@@ -1,3 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_c5d6f85bbb78e76313724bfadf55d56bf6f3b29b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_2ca4b50bd82b59f20d76fbc7149716e5ec4d35e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2fddc67a3d91b661297484c0cbf250f696781f0">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_dd8a80eacdd391aa54024548cbb24a9fa53cb75b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_d97397ab5504ee46078aa655a812c46e4c3b1e28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_1b515f8a7710593c058140b57b818c2d361c43ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_4a6986647b0038e855b098a9eff03a80165dea32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioSDK\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_5ca38dfb7dab564293daa045a501ec42ea33b240\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_3024f8cb31218fa9365bbd59e8a8546d08e87b8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8752d155094b457ad69c51b0d610cf0d0f63a892">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-25.0.0_cfddef8dc061304d89c1977b05c225caee1bf3e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_20b82bcd36a6e18d8822a1805a3cdb8d5b0dcf90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d09fc8bc031f4d3cd59e6e61314ce572a902078d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_38dfccda338a4b51d17ab0284c845a3def3a138a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_16d1895616349af62352911cab431c3841e44750\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\palette-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="672cceae26e9a8fcbd8e0eefe5fc351c50d2488a">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-25.0.0_68b5aca1845912990873abf241bce140989c2a14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ab9075ab6e03a8be8374bb8bfa19c8b085f459c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="06cd02353796d58b7cf9dbb35bc74fe82e786989">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4f4ef4f1542e4d87055f23801474a15057913d13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\libs\JTransforms-3.1-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82f06f64b95f4d1da1dfc7dec02628a157ce8692">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\2\JTransforms-3.1-with-dependencies_dc271b5fa970b2dc59b7b6060e5eb6de4200fd33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e4c0423d27f3fa03192dad15ec639bceae834b34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c24cb20005b1bd089911c52c8d3bc4f53aaf7566\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19686ca598062e7a7dffc47b32dab3ac7a6319b3">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8f0ae7afbc4d520e3b785c9d360c62a4b3b11db3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jona Q\Picto\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Jona Q\Picto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_2fe099996a157662d498c675d75c397037413177\classes.dex" />
+    </item>
+
+</items>
